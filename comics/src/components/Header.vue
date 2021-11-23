@@ -41,7 +41,7 @@ export default {
             list-style: none;
             padding: 10px;
             height: 100px;
-            &:hover{
+            &:hover {
                 border-bottom: 3px solid #0282f9;
             }
         }
