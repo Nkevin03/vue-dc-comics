@@ -4,6 +4,7 @@
     <Content />
     <Info />
     <Link />
+    <Footer />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from '@/components/Header.vue'
 import Content from '@/components/Content.vue'
 import Info from '@/components/Info.vue'
 import Link from '@/components/Link.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     Header,
     Content,
     Info,
-    Link
+    Link,
+    Footer
   }
 }
 </script>
