@@ -3,6 +3,7 @@
     <Header />
     <Content />
     <Info />
+    <Link />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Header from '@/components/Header.vue'
 import Content from '@/components/Content.vue'
 import Info from '@/components/Info.vue'
+import Link from '@/components/Link.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Content,
-    Info
+    Info,
+    Link
   }
 }
 </script>

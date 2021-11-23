@@ -41,7 +41,7 @@ export default {
         .info{
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-between;
             width: 90%;
             margin: 0 auto;
 
